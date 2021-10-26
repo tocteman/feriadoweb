@@ -29,7 +29,7 @@
   : announcements.filter(x => x.date.includes("2021-10-29"))
 
   
-  let [a, b, c, d] = Array.from({length: 4}, i => frs ? frs[0] : null )
+  let [a, b, c, d] = Array.from({length: 4}, i => frs ? frs[1] : null )
   setInterval(() => { a = frs[getRandomInt(frs.length)] }, 1000)
   setInterval(() => { b = frs[getRandomInt(frs.length)] }, 800)
   setInterval(() => { c = frs[getRandomInt(frs.length)] }, 2000)
