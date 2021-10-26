@@ -8,6 +8,7 @@ export default {
       optimizeDeps: {
         include: ['@sanity/block-content-to-hyperscript/internals.js']
       }
-    }
+    },
+    prerender: { force: true}
 	}
 };
