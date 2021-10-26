@@ -20,8 +20,8 @@
   $: frs =
     !fractions ? [{img: ""}]
   : theme_value === "dark" ?
-    fractions.filter(x => x.name.includes("02nov")) 
-  : fractions.filter(x => x.name.includes("29oct"))
+    fractions.result.filter(x => x.name.includes("02nov")) 
+  : fractions.result.filter(x => x.name.includes("29oct"))
 
   $: ans =
     !announcements ? [{title: "", block: {}}] 
