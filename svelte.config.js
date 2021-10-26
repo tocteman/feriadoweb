@@ -13,7 +13,7 @@ export default {
       onError: "continue",
       crawl: true,
       enabled: true,
-      pages: ['*']
+      entries: ['*']
     }
 	}
 };
