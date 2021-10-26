@@ -9,6 +9,6 @@ export default {
         include: ['@sanity/block-content-to-hyperscript/internals.js']
       }
     },
-    prerender: { force: true}
+    prerender: { onError: "continue"}
 	}
 };
