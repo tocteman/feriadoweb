@@ -1,6 +1,6 @@
 <script context="module">
   import sclient from '$lib/sclient'
-  export async function preload() {
+  export async function load() {
     const assetq = `*[_type == "generalAsset"]{name,"img": image.asset}`
     const fractionq = `*[_type == "posterFraction"]{name,"img": image.asset}`
     const announceq = `*[_type == "announcement"]{title,block,date}`
