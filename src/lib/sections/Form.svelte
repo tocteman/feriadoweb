@@ -2,8 +2,9 @@
   export const prerender = true
 </script>
 <div class="py-24 bg-morado-900 dark:bg-black text-3xl w-1/2 mx-auto px-8 leading-normal">
-  <form class="flex flex-col" data-netlify="true">
+  <form class="flex flex-col" name="contact" method="post" data-netlify="true" netlify-honeypot="bot-field">
     <input type="hidden" name="form-name" value="contact" />
+    <input type="text" name="bot-field" />
     <div class="flex items-center">
       <p class="text-white">Hola, mi nombre es</p>
       <input type="text" name="name" class="dark:bg-gray-900 bg-morado-700 text-amarillo-400 dark:text-verde-500 font-bold border-b-2 dark:border-rosado-500 border-tomate-400 p-2 focus:border-amarillo-400 rounded ml-4">
