@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@movingbrands/svelte-portable-text': ^0.0.11
+  '@jcamilleri13/svelte-portable-text': github:jcamilleri13/svelte-portable-text#prototype
   '@sanity/block-content-to-hyperscript': ^3.0.0
   '@sanity/client': ^2.21.3
   '@sanity/image-url': ^1.0.1
@@ -19,7 +19,7 @@ dependencies:
   cssnano: 5.0.8_postcss@8.3.11
 
 devDependencies:
-  '@movingbrands/svelte-portable-text': 0.0.11_svelte@3.44.0
+  '@jcamilleri13/svelte-portable-text': github.com/jcamilleri13/svelte-portable-text/c2ec14576bf63ebf414c7545b30d6e450f324c44_svelte@3.44.0
   '@sanity/block-content-to-hyperscript': 3.0.0
   '@sveltejs/adapter-netlify': 1.0.0-next.35
   '@sveltejs/kit': 1.0.0-next.190_svelte@3.44.0
@@ -53,14 +53,6 @@ packages:
 
   /@iarna/toml/2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
-    dev: true
-
-  /@movingbrands/svelte-portable-text/0.0.11_svelte@3.44.0:
-    resolution: {integrity: sha512-snexsgm3Fw7JUraUcBprs6J92jTUXygTI6+gjJpLskkQ+JWPieoQUeZMhcCiCPEN0rzjJjS5T3OHS/D4yyFiKQ==}
-    peerDependencies:
-      svelte: ^3.0.0
-    dependencies:
-      svelte: 3.44.0
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -2109,3 +2101,14 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
+
+  github.com/jcamilleri13/svelte-portable-text/c2ec14576bf63ebf414c7545b30d6e450f324c44_svelte@3.44.0:
+    resolution: {tarball: https://codeload.github.com/jcamilleri13/svelte-portable-text/tar.gz/c2ec14576bf63ebf414c7545b30d6e450f324c44}
+    id: github.com/jcamilleri13/svelte-portable-text/c2ec14576bf63ebf414c7545b30d6e450f324c44
+    name: '@jcamilleri13/svelte-portable-text'
+    version: 0.0.15
+    peerDependencies:
+      svelte: ^3.0.0
+    dependencies:
+      svelte: 3.44.0
+    dev: true

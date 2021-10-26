@@ -6,8 +6,9 @@
     "build": "svelte-kit build",
     "preview": "svelte-kit preview"
   },
+  "type": "module",
   "devDependencies": {
-    "@movingbrands/svelte-portable-text": "^0.0.11",
+    "@jcamilleri13/svelte-portable-text": "github:jcamilleri13/svelte-portable-text#prototype",
     "@sanity/block-content-to-hyperscript": "^3.0.0",
     "@sveltejs/adapter-netlify": "^1.0.0-next.35",
     "@sveltejs/kit": "next",
@@ -16,7 +17,6 @@
     "svelte": "^3.42.6",
     "tailwindcss": "^2.2.17"
   },
-  "type": "module",
   "dependencies": {
     "@sanity/client": "^2.21.3",
     "@sanity/image-url": "^1.0.1",

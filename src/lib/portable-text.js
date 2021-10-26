@@ -1,2 +1,2 @@
-import BlockContent from '@movingbrands/svelte-portable-text/src/index.svelte'
+import BlockContent from '@jcamilleri13/svelte-portable-text/src/index.svelte'
 export default BlockContent
