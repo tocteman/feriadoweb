@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'Jost';
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('assets/fonts/Jost-Book.woff2') format('woff2');
+}
+
+@font-face{
+    font-family: 'Jost';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('assets/fonts/Jost-Bold.woff2') format('woff2');
+}
+
