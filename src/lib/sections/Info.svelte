@@ -5,6 +5,7 @@
 
   export let fractions;
   export let announcements;
+  export const prerender = true
 
   let theme_value;
   theme.subscribe(x => { theme_value = x; });
