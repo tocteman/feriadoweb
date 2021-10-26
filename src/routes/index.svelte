@@ -11,6 +11,7 @@
       props: { assets, fractions, announcements }
     }
   }
+	export const prerender = true;
 </script>
 
 <script>
