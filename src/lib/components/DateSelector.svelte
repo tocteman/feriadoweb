@@ -14,7 +14,7 @@
     29 OCT
   </button>
   <button class="rounded-lg px-10 py-4 bg-gradient-to-b from-black to-black hover:from-gray-900 border-2 border-rosado-500 shadow text-verde-500 hover:text-white font-bold hover:border-amarillo-500 text-4xl" on:click={setNovember}>
-    02 NOV
+    01 NOV
   </button>
 </div>
 

@@ -10,6 +10,7 @@
   let theme_value;
   theme.subscribe(x => { theme_value = x; });
 
+  export const customSerializers = {}
 
   function getRandomInt(max) {
     let m = Math.floor(Math.random() * max);
@@ -17,26 +18,48 @@
     return m
   }
 
-  $: frs =
-    !fractions ? [{img: ""}]
-  : theme_value === "dark" ?
-    fractions.result.filter(x => x.name.includes("02nov")) 
-  : fractions.result.filter(x => x.name.includes("29oct"))
+  console.log({fractions})
+
+  $: frs = theme_value === "dark" ?
+    fractions.filter(x => x.name.includes("01nov")) 
+  : fractions.filter(x => x.name.includes("29oct"))
+
 
   $: ans =
     !announcements ? [{title: "", block: {}}] 
   : theme_value === "dark" ?
-    announcements.filter(x => x.date.includes("2021-11-02")) 
-  : announcements.filter(x => x.date.includes("2021-10-29"))
+    announcements.filter(x => x.date.includes("2021-11-01")).sort((a, b) => a.order > b.order) 
+  : announcements.filter(x => x.date.includes("2021-10-29")).sort((a, b) => a.order > b.order) 
 
+  function groupedBy (array, fn) {
+    const arr = array.map(x => ({...x, sqr: String(x.square)}))
+		const ret = {}
+		arr.forEach(x => {
+			const key = fn(x)
+			if (ret[key]) {ret[key].push(x)}
+			else {ret[key] = [x]}
+		})
+    console.log({ret})
+		return ret
+	}
+
+
+  $: bySqr = frs ? groupedBy(frs, x => x.square) : null
   
-  let [a, b, c, d] = Array.from({length: 4}, i => frs ? frs[1] : null )
-  setInterval(() => { a = frs[getRandomInt(frs.length)] }, 1000)
-  setInterval(() => { b = frs[getRandomInt(frs.length)] }, 800)
-  setInterval(() => { c = frs[getRandomInt(frs.length)] }, 2000)
-  setInterval(() => { d = frs[getRandomInt(frs.length)] }, 1500)
+  let a; let b; let c; let d;
+
+  if (bySqr) {
+  console.log({frs})
+  console.log({bySqr})
+  console.log({a})
+}
+  
+  setInterval(() => { a = bySqr["1"][getRandomInt(bySqr["1"].length)] ?? null }, 2000)
+  setInterval(() => { b = bySqr["2"][getRandomInt(bySqr["2"].length)] ?? null}, 750)
+  setInterval(() => { c = bySqr["3"][getRandomInt(bySqr["3"].length)] ?? null }, 1500)
+  setInterval(() => { d = bySqr["4"][getRandomInt(bySqr["4"].length)] ?? null }, 1000)
+
     
-  export const customSerializers = {}
 
 </script>
 

@@ -12,7 +12,7 @@
   $: poster = 
     !assets ? {img: "", name: ""} 
   : theme_value === "dark" ? 
-    assets.filter(x => x.name.includes("02nov"))[0]
+    assets.filter(x => x.name.includes("01nov"))[0]
   : assets.filter(x => x.name.includes("29oct"))[0]
 
   $: campanazo = 
