@@ -73,7 +73,7 @@
     {#each ans as an}
       <div class="w-2/3 mx-auto">
         <div class="bg-white border-4 border-morado-800 dark:border-black p-4 rounded shadow">
-          <h2 class="text-3xl my-2 bg-amarillo-400 dark:bg-verde-500 font-bold uppercase">
+          <h2 class="text-3xl my-2 bg-amarillo-400 dark:bg-rosado-500 font-bold uppercase">
             {an.title}
           </h2>
           <p class="text-2xl leading-normal">
