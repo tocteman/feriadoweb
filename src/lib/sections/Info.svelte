@@ -56,8 +56,8 @@
 
 </script>
 
-<div class="bg-white py-24 flex items-center">
-  <div class="flex flex-col space-y-2 w-1/3 sticky top-12">
+<div class="bg-tomate-400 dark:bg-verde-500 py-24 flex items-start z-10 border-4 border-morado-800 dark:border-black">
+  <div class="flex flex-col space-y-2 w-1/3 sticky top-16 ">
     {#if a && b && c && d}
       <div class="flex space-x-2 w-1/2">
         <img src={urlFor(a.img)} class="bg-morado-700"/>
@@ -69,15 +69,17 @@
       </div>
     {/if}
   </div>
-  <div class="bg-white w-2/3 mx-8 px-12 flex flex-col space-y-8">
+  <div class="w-2/3 mx-8 px-12 flex flex-col space-y-8">
     {#each ans as an}
       <div class="w-2/3 mx-auto">
-        <h2 class="text-3xl my-2 bg-amarillo-400 dark:bg-verde-500 font-bold uppercase">
-        {an.title}
-        </h2>
-        <p class="text-xl leading-normal">
-          <BlockContent blocks={an.block} serializers={customSerializers}/>
-        </p>
+        <div class="bg-white border-4 border-morado-800 dark:border-black p-4 rounded shadow">
+          <h2 class="text-3xl my-2 bg-amarillo-400 dark:bg-verde-500 font-bold uppercase">
+            {an.title}
+          </h2>
+          <p class="text-2xl leading-normal">
+            <BlockContent blocks={an.block} serializers={customSerializers}/>
+          </p>
+        </div>
       </div>
     {/each}
 

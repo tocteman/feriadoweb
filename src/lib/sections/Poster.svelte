@@ -25,7 +25,7 @@
 
 </script>
 
-  <Header logo={feriadoLogo}/>
+<Header logo={feriadoLogo}/>
 <div class="py-24">
 {#if assets}
   <div class="flex flex-col items-center justify-center">

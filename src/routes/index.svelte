@@ -30,7 +30,7 @@ export const prerender = true;
 
 </script>
 
-<div class="dark:bg-black bg-morado-900">
+<div class="dark:bg-black bg-morado-900 ">
   <Poster assets={assets}/>
   <Info fractions={fractions} announcements={announcements}/>
   <Form/>
