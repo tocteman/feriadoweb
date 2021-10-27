@@ -28,8 +28,8 @@
   $: ans =
     !announcements ? [{title: "", block: {}}] 
   : theme_value === "dark" ?
-    announcements.filter(x => x.date.includes("2021-11-01")).sort((a, b) => a.order > b.order) 
-  : announcements.filter(x => x.date.includes("2021-10-29")).sort((a, b) => a.order > b.order) 
+    announcements.filter(x => x.date.includes("2021-11-01")).sort((a, b) => a.order < b.order) 
+  : announcements.filter(x => x.date.includes("2021-10-29")).sort((a, b) => a.order < b.order) 
 
   function groupedBy (array, fn) {
     const arr = array.map(x => ({...x, sqr: String(x.square)}))
@@ -39,7 +39,6 @@
 			if (ret[key]) {ret[key].push(x)}
 			else {ret[key] = [x]}
 		})
-    console.log({ret})
 		return ret
 	}
 
@@ -48,12 +47,6 @@
   
   let a; let b; let c; let d;
 
-  if (bySqr) {
-  console.log({frs})
-  console.log({bySqr})
-  console.log({a})
-}
-  
   setInterval(() => { a = bySqr["1"][getRandomInt(bySqr["1"].length)] ?? null }, 2000)
   setInterval(() => { b = bySqr["2"][getRandomInt(bySqr["2"].length)] ?? null}, 750)
   setInterval(() => { c = bySqr["3"][getRandomInt(bySqr["3"].length)] ?? null }, 1500)
@@ -79,10 +72,10 @@
   <div class="bg-white w-2/3 mx-8 px-12 flex flex-col space-y-8">
     {#each ans as an}
       <div class="w-2/3 mx-auto">
-        <h2 class="text-5xl font-bold uppercase">
+        <h2 class="text-3xl my-2 bg-amarillo-400 dark:bg-verde-500 font-bold uppercase">
         {an.title}
         </h2>
-        <p class="text-2xl leading-normal">
+        <p class="text-xl leading-normal">
           <BlockContent blocks={an.block} serializers={customSerializers}/>
         </p>
       </div>
