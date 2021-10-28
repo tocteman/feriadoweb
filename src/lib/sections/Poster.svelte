@@ -25,10 +25,10 @@
 
 </script>
 
+<div class="">
 <Header logo={feriadoLogo}/>
-<div class="py-24">
 {#if assets}
-  <div class="flex flex-col items-center justify-center">
+  <div class="pt-24 flex flex-col items-center justify-center">
   <div class="w-full flex flex-col items-center justify-center space-y-12">
     <img src={urlFor(poster.img)} alt="" class="w-4/5" >
   </div>
@@ -38,5 +38,8 @@
   </div>
   </div>
 {/if}
+<div class="pb-24">
+
 <DateSelector/>
+  </div>
 </div>

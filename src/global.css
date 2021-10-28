@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face{
     font-family: 'Jost';
     font-weight: normal;
@@ -16,5 +17,18 @@
     font-style: normal;
     font-stretch: normal;
     src: url('assets/fonts/Jost-Bold.woff2') format('woff2');
+}
+
+
+@font-face{
+  font-family: futura-pt,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 

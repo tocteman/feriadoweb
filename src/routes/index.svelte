@@ -21,8 +21,7 @@ export const prerender = true;
 <script>
   import Poster from '$lib/sections/Poster.svelte'
   import Info from '$lib/sections/Info.svelte'
-  import Form from '$lib/sections/Form.svelte'
-  import Footer from '$lib/components/Footer.svelte'
+  import Closer from '$lib/sections/Closer.svelte'
   export let assets
   export let fractions
   export let announcements
@@ -33,6 +32,5 @@ export const prerender = true;
 <div class="dark:bg-black bg-morado-900 ">
   <Poster assets={assets}/>
   <Info fractions={fractions} announcements={announcements}/>
-  <Form/>
-  <Footer/>
+  <Closer/>
 </div>

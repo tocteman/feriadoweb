@@ -49,20 +49,41 @@ module.exports = {
         },
         'fade-in-up': {
           '0%': {
+            opacity: '0.7',
+            transform: 'translateY(+30px)'
+          },
+          '100%': {
             opacity: '1',
             transform: 'translateY(0)'
           },
-          '100%': {
-            opacity: '0',
-            transform: 'translateY(+10px)'
+        },
+        'fade-in-left': {
+          '0%': {
+            opacity: '0.7',
+            transform: 'translateX(-30px)'
           },
-        }
-
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        },
+        'fade-in-right': {
+          '0%': {
+            opacity: '0.7',
+            transform: 'translateY(+30px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          },
+        },
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
         'fade-in-down': 'fade-in-down 0.85s ease-in',
-        'fade-in-up': 'fade-in-up 0.5s ease-in'
+        'fade-in-up': 'fade-in-up 0.5s ease-in',
+        'fade-in-left': 'fade-in-left 0.5s ease-in',
+        'fade-in-right': 'fade-in-right 0.5s ease-in'
       },
 
     },
