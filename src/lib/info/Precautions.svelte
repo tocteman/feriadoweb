@@ -23,12 +23,14 @@ $: party = !icons ? null : icons.filter(x => x.name.includes("party"))[0]
     <div class="flex flex-col uppercase">
       <div class="flex space-x-2 space-y-2 items-center">
         <img src={urlFor(mask.img)} alt="" class="w-16"/>
-        <div> Cédula </div>
+        <div>
+          Mascarilla
+        </div>
       </div>
       <div class="flex space-x-2 space-y-2 items-center">
         <img src={urlFor(id.img)} alt="" class="w-16"/>
         <div>
-          Mascarilla
+          Cédula
         </div>
       </div>
       <div class="flex space-x-2 space-y-2 items-center">
