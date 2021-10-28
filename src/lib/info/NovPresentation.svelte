@@ -13,6 +13,8 @@ Llegamos con el 💥CAMPANAZO 21💥, que será el mejor evento para volvernos a
 Hemos preparado una fiesta increíble en la que te ofreceremos una excelente variedad de djs y artistas para festejar las Fiestas de Cuenca 💛❤️  al máximo!! 
         <br/> <br/>
   📍Caballo Campana (Misicata Baños km 4)
+        <br/> <br/>
+        <strong>Evento exclusivo para menores de edad.</strong>
     </p>
   </div>
 </div>
