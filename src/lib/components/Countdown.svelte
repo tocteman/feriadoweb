@@ -14,7 +14,7 @@ const timeframes = [
 ]
 
 $: time = 0
-$: initialDate = theme_value === "dark" ? 1635816648000 : 1635557448000
+$: initialDate = theme_value === "dark" ? 1635807623000 : 1635557448000
 
 
 function printRem (t, time) {
@@ -50,10 +50,10 @@ onInterval(handleTick, 1000);
 
 </script>
 <div class="flex flex-col items-center text-white text-lg md:text-3xl w-1/2 mx-auto text-center justify-center py-4 md:py-16">
-  <div class="mb-8">
-    solo falta
+  <div class="mb-2 md:mb-8">
+    en tan solo
   </div>
-  <div class="flex space-x-10 ">
+  <div class="flex space-x-4 md:space-x-10 ">
     {#each timeframes as tf}
       <div class="flex flex-col space-y-2">
         <div class="font-bold text-6xl md:text-9xl text-amarillo-500 dark:text-verde-500 md:w-48">

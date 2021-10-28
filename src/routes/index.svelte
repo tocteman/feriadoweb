@@ -1,7 +1,7 @@
 <script context="module">
   import sclient from '$lib/sclient'
   export async function load({fetch}) {
-  const assetq = `*[_type == "generalAsset"]{name,"img": image.asset}`
+  const assetq = `*[_type == "generalAsset"]{name,"img": image.asset,type}`
   const fractionq = `*[_type == "posterFraction"]{name,"img": image.asset,square}`
   const announceq = `*[_type == "announcement"]{title,block,date,order}`
   const assets = await sclient.fetch(assetq)
@@ -31,6 +31,6 @@ export const prerender = true;
 
 <div class="dark:bg-black bg-morado-900 ">
   <Poster assets={assets}/>
-  <Info fractions={fractions} announcements={announcements}/>
-  <Closer/>
+  <Info fractions={fractions} announcements={announcements} assets={assets}/>
+  <Closer assets={assets}/>
 </div>
