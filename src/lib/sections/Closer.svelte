@@ -25,7 +25,7 @@ import { urlFor } from '$lib/image-url'
   {#if whatsapp}
     <div class="flex sticky w-full top-4 justify-end ">
       <div class="animate-wiggle mr-8 ">
-        <a href="https://api.whatsapp.com/send?phone=+593995739100" >
+        <a href="https://api.whatsapp.com/send?phone=+593995749100" >
         <img src={urlFor(whatsapp.img)} alt="" class="w-12 cursor-pointer" on:click={callWhatsapp}/>
         </a>
       </div>
