@@ -27,7 +27,7 @@ $: feriadoLogo =
 
 $: partyName = theme_value === "dark" ? "Edición Fiestas de Cuenca" : "Edición Halloween"
 
-$: partyDate = theme_value === "dark" ? "01 nov" : "29oct"
+$: partyDate = theme_value === "dark" ? "01 nov" : "29 oct"
 
 </script>
 
