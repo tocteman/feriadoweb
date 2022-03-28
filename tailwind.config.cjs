@@ -10,12 +10,15 @@ module.exports = {
     extend: {
       colors: {
         rosado: {
+          400: '#e627b5',
           500: '#fa00c3'
         },
         azul: {
+          250: '#57d4f9',
           500: '#4005f5'
         },
         amarillo: {
+          300: '#ffe23f',
           400: '#ffe945',
           500: '#ffe947'
         },
@@ -29,7 +32,8 @@ module.exports = {
         morado: {
           700: '#5e1541',
           800: '#4e1541',
-          900: '#2f1536'
+          900: '#2f1536',
+          950: '#1c0840'
         }
       },
       keyframes: {
@@ -79,7 +83,7 @@ module.exports = {
         },
       },
       animation: {
-        wiggle: 'wiggle 1s ease-in-out infinite',
+        wiggle: 'wiggle 4s ease-in-out infinite',
         'fade-in-down': 'fade-in-down 0.85s ease-in',
         'fade-in-up': 'fade-in-up 0.5s ease-in',
         'fade-in-left': 'fade-in-left 0.5s ease-in',
