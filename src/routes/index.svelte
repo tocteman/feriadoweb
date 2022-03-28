@@ -1,6 +1,7 @@
 <script>
   import meetToGoLogo from '$lib/assets/meettogo_logo.svg'
   import aficheFeriado from '$lib/assets/aficheferiado.png'
+  import whatsapp from '$lib/assets/whatsapp.svg'
 
 </script>
 
@@ -13,4 +14,11 @@
       <img src={meetToGoLogo} alt="">
     </button>
   </a>
+  <div class="flex sticky w-full bottom-4 justify-end ">
+    <div class="animate-wiggle mr-8 ">
+      <a href="https://api.whatsapp.com/send?phone=+593995749100" >
+      <img src={whatsapp} alt="" class="w-12 cursor-pointer" on:click={callWhatsapp}/>
+      </a>
+    </div>
+  </div>
 </div>
