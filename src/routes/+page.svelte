@@ -1,3 +1,9 @@
-<h1 class="text-3xl font-bold underline text-red-500">
-  Hello world!
-</h1>
+<script>
+  import MainMenu from '$lib/home/MainMenu.svelte'
+  import Countdown from '$lib/home/Countdown.svelte'
+</script>
+
+<div>
+  <MainMenu/>
+    <Countdown/>
+</div>

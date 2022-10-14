@@ -1,3 +1,0 @@
-<div>
-  <MainMenu/>
-</div>

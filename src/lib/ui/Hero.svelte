@@ -1,4 +1,5 @@
 <script>
+import BackButton from '$lib/ui/BackButton.svelte'
   export let image
   export let title
 
