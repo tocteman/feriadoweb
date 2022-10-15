@@ -5,9 +5,12 @@
   <h2>
     Adquiérelas en Meet2Go.
   </h2>
-  <a href="https://www.meet2go.com/ev/campanazohalloween2022">
-    <div class="p-4 rounded shadow bg-green-300 shadow rounded">
+  <div class="mx-auto w-48">
+  <a href="https://www.meet2go.com/ev/campanazohalloween2022" >
+    <div class="p-2 rounded shadow bg-lime-400 shadow rounded">
       <img src={illustrations.m2go} alt="meet2go logo">
     </div>
   </a>
+
+  </div>
 </div>

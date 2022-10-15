@@ -12,13 +12,13 @@ module.exports = {
           '50%': { transform: 'rotate(3deg)' },
         },
         passthrough: {
-          '0%, 100%': { transform: 'translateX(300px)'},
-          '50%': { transform: 'translateX(-300px)' }
+          '0%': { transform: 'translateX(-50%)'},
+          '100%': { transform: 'translateX(100%)' }
         }
       },
       animation: {
         wiggle: 'wiggle 2s ease-in-out infinite',
-        passthrough: 'passthrough 5s ease-in-out infinite',
+        passthrough: 'passthrough 8s linear infinite',
       },
 
     },
