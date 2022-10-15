@@ -29,4 +29,5 @@ export const illustrations = {
   papas: `${illustrationUrl}papas.png`,
   pizzas: `${illustrationUrl}pizzas.png`,
   viernes28: `${illustrationUrl}viernes28.png` ,
+  m2go: `${illustrationUrl}m2go.png`
 }
