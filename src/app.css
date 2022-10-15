@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+    font-family: 'Belgro';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('lib/assets/Belgro.woff2') format('woff2');
+}
+
+
+
 

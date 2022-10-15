@@ -51,10 +51,10 @@ onInterval(handleTick, 1000);
   </div>
   <div class="flex space-x-4 md:space-x-10 ">
     {#each timeframes as tf}
-      <div class="flex flex-col space-y-2">
-        <div class="font-bold text-6xl md:text-9xl text-amarillo-500 dark:text-verde-500 md:w-48">
+      <div class="flex flex-col space-y-2 ">
+        <h2 class="font-bold text-2xl md:text-3xl text-amarillo-500 dark:text-verde-500 md:w-48 font-display">
           {printRem(tf.type, time)}
-        </div>
+        </h2>
         {tf.legend}
       </div>
     {/each}

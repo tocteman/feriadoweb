@@ -1,3 +1,6 @@
 <div>
-  adquierelas en Meet2Go
+  <h2>
+    Adquiérelas en Meet2Go.
+  </h2>
+
 </div>
