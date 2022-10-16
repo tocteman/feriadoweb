@@ -8,8 +8,11 @@
 </script>
 <div class="flex flex-col space-y-4 bg-gradient-to-bl from-blue-900 to-black">
   <Hero image={photos.event_2_mobile} title="entradas"/>
-  <div class="animate-rolling w-32 mx-auto my-4">
-    <img src={illustrations.ojoloco2} alt="">
+  <div class="my-4">
+    <div class="animate-rolling w-32 mx-auto ">
+      <img src={illustrations.ojoloco2} alt="">
+    </div>
+
   </div>
     <Pricing/>
     <Meet2Go/>
