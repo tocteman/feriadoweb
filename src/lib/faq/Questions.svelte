@@ -51,7 +51,7 @@
     }, 
     {
       q: "¿Hay cobertura de telefonía celular?",
-      a: "Sí, pero con intermitencia. por lo que recomendamos previamente coordinar puntos de encuentro y horas con tus amigos."
+      a: "Sí, pero con intermitencia, por lo que recomendamos previamente coordinar puntos de encuentro y horas con tus amigos."
     }, 
     {
       q: "¿Si tengo algún inconveniente durante el evento a donde debo acudir?",

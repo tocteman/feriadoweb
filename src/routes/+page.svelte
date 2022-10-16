@@ -17,7 +17,7 @@
     <LedSeparator/>
     <MainMenu/>
     <LedSeparator/>
-    <div class="max-w-sm">
+    <div class="max-w-sm pt-4 pb-8">
     <Countdown/>
     </div>
   </div>
