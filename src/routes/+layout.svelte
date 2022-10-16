@@ -1,11 +1,9 @@
  <script>
   import "../app.css";
-    import Whatsapp from '$lib/ui/Whatsapp.svelte'
+  import Footer from '$lib/ui/Footer.svelte'
 </script>
 
  <main class="text-white overflow-x-hidden bg-black">
   <slot />
-  <div class="sticky bottom-8 z-50">
-    <Whatsapp/>
-  </div>
+   <Footer/>
  </main>

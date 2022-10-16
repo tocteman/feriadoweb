@@ -11,7 +11,7 @@
     <Banner/>
   </div>
   <div class="flex flex-col space-y-4 items-center min-h-screen justify-center">
-    <div class="max-w-sm w-11/12 mx-auto -mt-8">
+    <div class="max-w-sm w-11/12 mx-auto">
       <img src={illustrations.main} alt="">
     </div>
     <LedSeparator/>
