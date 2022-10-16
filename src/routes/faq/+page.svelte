@@ -5,9 +5,12 @@
   import { photos } from '$lib/images'
 
 </script>
-<div class="faq-layout">
-  <Hero image={photos.hero_faq_cuadrado} title="Preguntas"/>
-  <Questions/>
+<div class="faq-layout bg-gradient-to-bl from-black via-blue-900 to-black">
+  <Hero image={photos.hero_faq_cuadrado} title="preguntas"/>
+  <div class="mx-auto max-w-lg">
+    <Questions/>
+
+  </div>
   <ContactForm/>
 
 

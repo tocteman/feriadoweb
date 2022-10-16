@@ -3,9 +3,9 @@
     import Whatsapp from '$lib/ui/Whatsapp.svelte'
 </script>
 
- <main class="bg-gradient-to-br from-pink-700 via-purple-800 to-blue-800 min-h-screen text-white overflow-x-hidden">
+ <main class="text-white overflow-x-hidden bg-black">
   <slot />
-  <div class="sticky bottom-4 z-50">
+  <div class="sticky bottom-8 z-50">
     <Whatsapp/>
   </div>
  </main>

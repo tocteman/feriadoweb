@@ -45,14 +45,14 @@ const handleTick = () => (time = (now() - initialDate) * -1);
 onInterval(handleTick, 1000);
 
 </script>
-<div class="flex flex-col">
-  <div class="mb-2 md:mb-8">
+<div class="flex flex-col text-white">
+  <p class="mb-2 md:mb-8 text-center">
     en tan solo
-  </div>
+  </p>
   <div class="flex space-x-4 md:space-x-10 ">
     {#each timeframes as tf}
       <div class="flex flex-col space-y-2 ">
-        <h2 class="font-bold text-2xl md:text-3xl text-amarillo-500 dark:text-verde-500 md:w-48 font-display">
+        <h2 class="font-bold text-2xl md:text-3xl text-yellow-300 md:w-48 font-display">
           {printRem(tf.type, time)}
         </h2>
         {tf.legend}

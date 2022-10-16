@@ -8,17 +8,28 @@ module.exports = {
     extend: {
       keyframes: {
         wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
-          '50%': { transform: 'rotate(3deg)' },
+          '0%, 100%': { transform: 'rotate(-13deg)' },
+          '50%': { transform: 'rotate(13deg)' },
         },
         passthrough: {
-          '0%': { transform: 'translateX(-50%)'},
-          '100%': { transform: 'translateX(100%)' }
+          '0%': { transform: 'translateX(-220%)'},
+          '100%': { transform: 'translateX(120%)' }
+        },
+        wave: {
+          '0%': { transform: 'translateX(-3%)'},
+          '50%': { transform: 'translateX(3%)'},
+          '100%': { transform: 'translateX(-3%)'},
+        },
+        rolling: {
+          '0%': { transform: 'rotate(0deg)'},
+          '100%': { transform: 'rotate(360deg)'},
         }
       },
       animation: {
-        wiggle: 'wiggle 2s ease-in-out infinite',
-        passthrough: 'passthrough 8s linear infinite',
+        wiggle: 'wiggle 8s ease-in-out infinite',
+        passthrough: 'passthrough 4s linear infinite',
+        wave: 'wave 1.5s linear infinite',
+        rolling: 'rolling 5s linear infinite',
       },
 
     },
