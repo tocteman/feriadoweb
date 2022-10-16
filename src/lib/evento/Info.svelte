@@ -8,6 +8,6 @@
   </p>
   </div>
   <div class="animate-rolling w-32 mx-auto">
-    <img src={illustrations.ojoloco2} alt="">
+    <img src={illustrations.ojoloco1} alt="">
   </div>
 </div>
