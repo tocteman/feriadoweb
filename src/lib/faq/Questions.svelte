@@ -68,6 +68,7 @@
 </script>
 
 <div class="mx-8 mx-auto flex flex-col space-y-4 leading-normal py-8">
+  <h3 class="italic mb-4">Si tienes cualquier duda adicional, déjanosla saber mediante Whatsapp</h3>
   <LedSeparator color={"pink"}/>
   {#each questions as x, i}
     <div>

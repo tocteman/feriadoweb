@@ -3,6 +3,7 @@
   import Meet2Go from '$lib/entradas/Meet2Go.svelte'
   import Hero from '$lib/ui/Hero.svelte'
   import LedSeparator from '$lib/ui/LedSeparator.svelte'
+  import pizzotres from '$lib/assets/animacion1.gif'
   import { photos, illustrations } from '$lib/images'
 
 </script>
@@ -13,18 +14,38 @@
     title="entradas"
   />
   <div class="my-4">
-    <div class="animate-rolling w-32 mx-auto ">
-      <img src={illustrations.ojoloco2} alt="">
-    </div>
+
+  <p class="text-lg my-4 mx-auto max-w-sm p-4">
+      Consigue tus entradas con nuestros promotores oficiales 🥳, en Vrooms 👾, Pizzo Tr3s y  a través del link de Meet2Go.<br/>
+      Estas son las opciones disponibles:
+    </p>
 
   </div>
     <Pricing/>
     <Meet2Go/>
-    
-  <div class="mt-4">
-    <img src={illustrations.pizzas} alt="">
 
+  <div class="py-4">
+    <LedSeparator color={"lime"}/>
   </div>
+  <div class="flex items-center max-w-md mx-auto space-x-4 pb-2 sm:pb-8">
+    <div class="w-20">
+      <a href="https://pizzotres.com" target="_blank">
+      <img src={illustrations.pizzotres} alt="">
+      </a>
+    </div>
+    <div class="w-36">
+      <a href="https://vrooms.ec" target="_blank">
+        <img src={illustrations.vrooms} alt="">
+      </a>
+    </div>
+  </div>
+    
+  <div class="block sm:hidden mt-4">
+    <img src={illustrations.pizzas} alt="">
+  </div>
+
+
+
   <!-- <div class="bg-cover pizza-background" style="background-image: url({illustrations.pizzas});"> -->
   <!-- </div> -->
 

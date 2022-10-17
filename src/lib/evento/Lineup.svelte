@@ -1,13 +1,14 @@
 <script>
 import { photos, illustrations } from '$lib/images'
+import instagram from '$lib/assets/instagram.svg'
 
 let currentDj = null;
 
 const djs = [
-  { image: photos.alex, name: "Alex Ponce" },
-  { image: photos.poncho, name: "Poncho Magnético" },
-  { image: photos.constanza, name: "Dj Constanza"},
-  { image: photos.moi, name: "Dj Moi" }
+  { image: photos.alex, name: "Alex Ponce", ig:"alexponcemusica" },
+  { image: photos.poncho, name: "Poncho Magnético", ig: "ponchomagnetico" },
+  { image: photos.constanza, name: "Dj Constanza", ig: "therealguafle"},
+  { image: photos.moi, name: "Dj Moi", ig: "eldjmoi" }
 ]
 
 const setDj = dj => { currentDj = dj }
@@ -34,8 +35,11 @@ const setDj = dj => { currentDj = dj }
     {/each}
 
     {#if currentDj}
-      <div class="max-w-sm border-blue-900 border-4 animate-wave shadow">
+      <div class="max-w-sm border-blue-900 border-4 animate-wave shadow relative text-white">
         <img src={currentDj.image} alt="">
+        <a class="w-16 h-16 text-white absolute top-2 left-2 hover:text-yellow-300" href={`https://instagram.com/${currentDj.ig}` } target="_blank">
+          <img src={instagram} alt="" class="text-white"/>
+        </a>
       </div>
     {:else}
       <div class="animate-wiggle animate-passthrough">
