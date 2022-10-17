@@ -6,8 +6,12 @@
   import { photos, illustrations } from '$lib/images'
 
 </script>
-<div class="flex flex-col space-y-4 bg-gradient-to-bl from-blue-900 to-black">
-  <Hero image={photos.event_2_mobile} title="entradas"/>
+<div class="bg flex flex-col space-y-4">
+  <Hero 
+    smallImage={photos.entradas_cuadrado} 
+    largeImage={photos.entradas_grande} 
+    title="entradas"
+  />
   <div class="my-4">
     <div class="animate-rolling w-32 mx-auto ">
       <img src={illustrations.ojoloco2} alt="">
@@ -27,6 +31,11 @@
 </div>
 
 <style>
+  .bg {
+    background: 
+      linear-gradient(194deg, rgba(25,37,102,1) 0%, rgba(9,4,83,1) 30%, rgba(16,15,51,1) 72%, rgba(9,8,25,1) 100%),
+      url('noise.svg');
+  }
   .pizza-background {
     min-height: 100vh;
     padding: 2rem;

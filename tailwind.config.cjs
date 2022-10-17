@@ -5,6 +5,12 @@ module.exports = {
     fontFamily: {
       display: ['Belgro', 'sans-serif']
     },
+    minHeight: {
+      '1/2': '50vh'
+    },
+    maxHeight: {
+      'half': '50vh'
+    },
     extend: {
       keyframes: {
         wiggle: {

@@ -8,8 +8,13 @@ import { photos } from '$lib/images'
 </script>
 
 <div class="event-layout leading-normal
-  bg-gradient-to-br from-purple-900 via-indigo-900 to-black">
-  <Hero image={photos.hero_evento_cuadrado} title={"evento"}/>
+  bg
+  ">
+  <Hero 
+    smallImage={photos.hero_evento_cuadrado} 
+    largeImage={photos.hero_evento_grande} 
+    title={"evento"}
+  />
   <div class="flex flex-col space-y-4 max-w-md mx-auto p-8 border-t-indigo-900 border-t-2">
     <Presentation/>
     <Lineup/>
@@ -18,3 +23,10 @@ import { photos } from '$lib/images'
   </div>
 
 </div>
+<style>
+  .bg {
+    background-image: url('bg-evento.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>

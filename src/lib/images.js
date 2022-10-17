@@ -5,15 +5,16 @@ const illustrationUrl = "https://pub-7ce9aa6155a4421e9084c29ec9212d4e.r2.dev/ilu
 export const photos = {
   alex: `${photoUrl}alex.jpg`,
   constanza: `${photoUrl}constanza.jpg`,
-  event_2_grande: `${photoUrl}event_2_grande.jpg`,
+  entradas_grande: `${photoUrl}entradas_grande.jpg`,
   event_2_mobile: `${photoUrl}event_2_mobile.jpg`,
   event_3: `${photoUrl}event_3.jpg`,
   hero_evento_cuadrado: `${photoUrl}hero_evento_cuadrado.jpg`,
   hero_evento_grande: `${photoUrl}hero_evento_grande.jpg`,
-  hero_faq_cuadrado: `${photoUrl}hero_faq_cuadrada.jpg`,
+  hero_faq_cuadrado: `${photoUrl}hero_faq_cuadrado.jpg`,
   hero_faq_grande: `${photoUrl}hero_faq_grande.jpg`,
   moi: `${photoUrl}moi.jpg`,
-  poncho: `${photoUrl}poncho.jpg`, 
+  poncho: `${photoUrl}poncho.jpg`,
+  entradas_cuadrado: `${photoUrl}entradas_cuadrado.jpg`
 }
 
 export const illustrations = {

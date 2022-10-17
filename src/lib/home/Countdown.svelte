@@ -49,10 +49,10 @@ onInterval(handleTick, 1000);
   <p class="mb-2 md:mb-8 text-center">
     en tan solo
   </p>
-  <div class="flex space-x-4 md:space-x-10 ">
+  <div class="flex space-x-4 max-w-sm mx-auto text-center">
     {#each timeframes as tf}
       <div class="flex flex-col space-y-2 ">
-        <h2 class="font-bold text-2xl md:text-3xl text-yellow-300 md:w-48 font-display">
+        <h2 class="font-bold text-2xl md:text-3xl text-yellow-300 font-display">
           {printRem(tf.type, time)}
         </h2>
         {tf.legend}

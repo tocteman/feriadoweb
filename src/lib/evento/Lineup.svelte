@@ -26,7 +26,7 @@ const setDj = dj => { currentDj = dj }
     {#each djs as dj}
       <h3 
         data-text={"xxxxxxx"}
-        class="text-xl font-bold font-display cursor-pointer hrelative overflow-hidden pb-4 before:content-[attr(data-text)attr(data-text)] before:underline before:underline-offset-4 before:decoration-doubled before:decoration-indigo-900 before:decoration-4 before:absolute before:whitespace-nowrap before:text-transparent before:animate-wave over:text-indigo-900 hover:text-yellow-300"
+        class="text-xl font-bold font-display cursor-pointer hrelative overflow-hidden pb-4 before:content-[attr(data-text)attr(data-text)] before:underline before:underline-offset-4 before:decoration-doubled before:decoration-blue-900 before:decoration-4 before:absolute before:whitespace-nowrap before:text-transparent before:animate-wave over:text-blue-900 hover:text-yellow-300"
         on:click={() => setDj(dj)}
       >
         {dj.name}
@@ -34,7 +34,7 @@ const setDj = dj => { currentDj = dj }
     {/each}
 
     {#if currentDj}
-      <div class="max-w-sm border-indigo-900 border-4 animate-wave shadow">
+      <div class="max-w-sm border-blue-900 border-4 animate-wave shadow">
         <img src={currentDj.image} alt="">
       </div>
     {:else}
