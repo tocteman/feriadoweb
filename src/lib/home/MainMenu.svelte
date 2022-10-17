@@ -11,7 +11,7 @@
 </script>
 
 
-<div class="container">
+<div class="container mt-8">
   <nav class="font-display w-64 mx-auto">
     <div class="flex flex-col mx-auto">
       {#each navs as n}

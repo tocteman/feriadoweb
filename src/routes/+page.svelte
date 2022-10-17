@@ -6,7 +6,7 @@
   import { illustrations } from '$lib/images' 
 </script>
 
-<div class="bg-gradient-to-br from-purple-700 via-purple-900 via-purple-800 via-blue-900 via-purple-900 to-black ">
+<div class="bg">
   <div class="block sm:hidden">
     <Banner/>
   </div>
@@ -23,3 +23,11 @@
   </div>
 
 </div>
+
+<style>
+  .bg {
+    background-image: url('https://pub-7ce9aa6155a4421e9084c29ec9212d4e.r2.dev/ilustraciones%2Fbg-home.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
