@@ -26,7 +26,7 @@
 
 <style>
   .bg {
-    background-image: url('https://pub-7ce9aa6155a4421e9084c29ec9212d4e.r2.dev/ilustraciones%2Fbg-home.svg');
+    background-image: url('https://pub-7ce9aa6155a4421e9084c29ec9212d4e.r2.dev/ilustraciones%2Fbg-evento.svg');
     background-repeat: no-repeat;
     background-size: cover;
   }
