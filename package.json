@@ -22,6 +22,6 @@
 	"dependencies": {
 		"@sanity/client": "2.21.3",
 		"@sanity/image-url": "1.0.1",
-		"@sveltejs/adapter-cloudflare": "^1.0.0-next.39"
+		"@sveltejs/adapter-netlify": "^1.0.0-next.81"
 	}
 }
