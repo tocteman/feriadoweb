@@ -7,6 +7,4 @@
   <h3 class="animate-passthrough font-display text-3xl whitespace-nowrap opacity-100 text-yellow-300">
     CABALLO CAMPANA 28 OCTUBRE 2022
   </h3>
-
-
 </div>
