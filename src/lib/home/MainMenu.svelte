@@ -1,7 +1,6 @@
 <script>
   import { illustrations } from '$lib/images'
   const { guagua, gordon, bunny } = illustrations
-  console.log({guagua})
   const navs = [
     { text: "entradas", link: "/entradas", image: guagua, icon: "🎟"},
     { text: "evento", link: "/evento", image: bunny, icon: "🎃"},

@@ -14,12 +14,12 @@
 
 
 
-  <div class="shadow border-4 border-pink-400 shadow-pink-400 p-4">
-  <h2 class="text-pink-400 text-2xl font-display">VIP 😎</h2>
+  <div class="shadow border-4 border-rosado-400 shadow-rosado-400 p-4">
+  <h2 class="text-rosado-400 text-2xl font-display">VIP 😎</h2>
   <p class="text-lg">
     Todo lo que incluye Club, más acceso a zona VIP 🔥, tarima de los DJs, bebidas ilimitadas 🧃, regalos de los auspiciantes y entrada prioritaria 👑. 
   </p>
-  <h2 class="text-pink-400 text-2xl font-display">$20</h2>
+  <h2 class="text-rosado-400 text-2xl font-display">$20</h2>
   </div>
 
 </div>

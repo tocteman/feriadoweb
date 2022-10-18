@@ -16,7 +16,7 @@
   <div class="my-4">
 
   <p class="text-lg my-4 mx-auto max-w-sm p-4">
-      Consigue tus entradas con nuestros promotores oficiales 🥳, en Vrooms 👾, Pizzo Tr3s y  a través del link de Meet2Go.<br/>
+      Consigue tus entradas con nuestros promotores oficiales 🥳, en Vrooms 👾, Pizzo Tr3s, y a través del link de Meet2Go.<br/>
       Estas son las opciones disponibles:
     </p>
 

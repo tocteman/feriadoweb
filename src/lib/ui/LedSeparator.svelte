@@ -6,7 +6,7 @@
   $: if (!color || color == "yellow"){
     appliedClass = "border-yellow-300 shadow-yellow-300 border-t-yellow-300 border-b-yellow-300" 
   } else if (color === "pink"){
-    appliedClass = "border-pink-400 shadow-pink-400 border-t-pink-400 border-b-pink-400 "
+    appliedClass = "border-rosado-400 shadow-rosado-400 border-t-rosado-400 border-b-rosado-400 "
   } else if (color === "lime") {
     appliedClass = "border-lime-400 shadow-lime-400 border-t-lime-400 border-b-lime-400 "
 
